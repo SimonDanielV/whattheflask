@@ -1,0 +1,11 @@
+
+.content {
+  max-width: 750px;
+  margin: auto
+}
+
+.country {
+  background-color: black;
+  color: white;
+  padding: 8px
+}
