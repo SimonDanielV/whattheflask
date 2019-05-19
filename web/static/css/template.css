@@ -1,11 +1,33 @@
+body {
+  background-color: #FFF7F2
+}
+
+.main-wrapper{
+  background-color: #333
+}
 
 .content {
   max-width: 750px;
   margin: auto
 }
 
-.country {
+.subtitle {
   background-color: black;
   color: white;
   padding: 8px
 }
+
+.container {
+  text-align: center;
+}
+
+#menu-list {
+  padding: 0;
+  list-style: none;
+}
+
+ ul#menu-list li {
+   display: inline-block;
+   border: 1px #333 solid;
+   padding: 20px;s
+ }
