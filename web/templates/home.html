@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
     <meta charset="utf-8">
-    <title>Flask web app.</title>
+    <title>Home page</title>
   </head>
     <div class="content">
       <body>
+        {% extends "template.html" %}
+        {% block content %}
 
-        <h2 class = "country">CHINA</h2>
-        <p> China is a very big country.</p>
+        <h2 class = "subtitle"> CHINA </h2>
+        <p> China is a very big country. </p>
 
-        <h2 class = "country">Netherlands</h2>
-        <p> The Netherlands is smaller than China.</p>
+        <h2 class = "subtitle"> Netherlands </h2>
+        <p> The Netherlands is smaller than China. </p>
 
+        {% endblock %}
       </body>
     </div>
 </html>
