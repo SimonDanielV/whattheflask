@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+    <meta charset="utf-8">
+    <title>Main template for all pages</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo"> Randomizer </h1>
+        <strong><nav>
+          <ul id="menu-list">
+            <li><a href="{{ url_for('home') }}"> Home </a></li>
+            <li><a href="{{ url_for('about') }}"> About </a></li>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+  </body>
+</html>
