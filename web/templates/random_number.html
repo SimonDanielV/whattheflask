@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Generate random number</title>
+  </head>
+  <div class="content">
+    <body>
+      {% extends "template.html" %}
+      {% block content %}
+
+      <h2 class = "random-form"> Random number </h2>
+      <form method="POST">
+        <p> Enter here the lowest number that you would like to get:</p>
+        <input type="text" name="randomStart">
+
+        <p> Enter here the highest number that you would like to get:</p>
+        <input type="text" name="randomEnd">
+
+        <div class="submit-buttom">
+           <input type="submit">
+        </div>
+        </form>
+      <p> Your random number is: {{ random_number }} </p>
+
+      {% endblock %}
+    </body>
+  </div>
+
+</html>
