@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF7F2
+  background-color: #FFF7F2l
 }
 
 .main-wrapper{
@@ -29,5 +29,6 @@ body {
  ul#menu-list li {
    display: inline-block;
    border: 1px #333 solid;
-   padding: 20px;s
+   padding: 20px;
+   min-width: 80px;
  }
