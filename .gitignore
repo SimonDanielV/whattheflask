@@ -25,6 +25,7 @@ wheels/
 *.egg
 MANIFEST
 data/
+notebooks/
 .DS_Store
 
 # PyInstaller
