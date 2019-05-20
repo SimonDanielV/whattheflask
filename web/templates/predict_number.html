@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Make prediction on number sequence.</title>
+  </head>
+  <div class="content">
+    <body>
+      {% extends "template.html" %}
+      {% block content %}
+
+      <h2 class = "random-form"> Random number </h2>
+      <form method="POST">
+        <p> Enter a list of number on which you would like to predict to next one:</p>
+        <input type="text" name="numberSequence">
+
+        <div class="submit-buttom">
+           <input type="submit">
+        </div>
+        </form>
+      <p> The next number of your list is possible <strong> {{ predicted_number }} </strong></p>
+
+      {% endblock %}
+    </body>
+  </div>
+
+</html>
