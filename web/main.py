@@ -26,14 +26,9 @@ def predict_int():
         return render_template("predict_number.html", predicted_number=prediction)
     return render_template("predict_number.html")
 
-# @app.route("/predict")
-# def predict_int():
-#     x = 5
-#     return render_template("predict_number.html", random_number=x)
-
 @app.route("/about")
 def about():
     return render_template("about.html")
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=8080, debug=True)

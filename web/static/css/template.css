@@ -1,9 +1,30 @@
 body {
-  background-color: #FFF7F2l
+  margin: 0px;
+  background-color: #F3F3F3
 }
 
-.main-wrapper{
-  background-color: #333
+p {
+  font-size: 18px;
+  font-family: 'Ubuntu';
+  color: #2A2A2A;
+}
+
+a {
+  font-size: 18px;
+  font-family: 'Ubuntu';
+  color: #2A2A2A;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Ubuntu';
+  color: #2A2A2A;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: 'Ubuntu';
+  color: #2A2A2A;
 }
 
 .content {
@@ -12,23 +33,39 @@ body {
 }
 
 .subtitle {
-  background-color: black;
-  color: white;
-  padding: 8px
+  color: #2A2A2A;
 }
 
 .container {
-  text-align: center;
+  background-color: #333333;
+  opacity: 0.91;
+  padding-right: 5%;
 }
 
-#menu-list {
+.navigation{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navigation ul {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
   padding: 0;
-  list-style: none;
 }
 
- ul#menu-list li {
-   display: inline-block;
-   border: 1px #333 solid;
-   padding: 20px;
-   min-width: 80px;
- }
+.navigation li{
+  float: right;
+}
+
+.navigation a {
+  display: block;
+  color: #F3F3F3;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
