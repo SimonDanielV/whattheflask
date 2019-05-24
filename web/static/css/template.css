@@ -43,35 +43,42 @@ img {
 }
 
 .container {
-  background-color: #333333;
+  background-color: #5B524A;
   opacity: 0.91;
   padding-right: 5%;
 }
 
-.navigation{
-  padding-top: 10px;
-  padding-bottom: 10px;
+.navigation {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .navigation ul {
-  overflow: hidden;
-  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
 }
 
-.navigation li{
-  float: right;
+.navigation ul li {
+  display: list-item;
+  list-style: none;
 }
 
 .navigation a {
-  display: block;
   color: #F3F3F3;
   text-decoration: none;
-  text-align: center;
-  padding: 5px 20px;
+  padding: 0px 20px;
 }
 
 .navigation a:hover {
-  text-decoration: underline;
+  color: tomato;
+}
+
+@media only screen and (max-width: 813px) {
+
+  .navigation ul {
+    justify-content: center;
+  }
+  
 }
