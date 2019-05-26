@@ -77,6 +77,10 @@ input[type=submit] {
   margin: auto;
 }
 
+.interactive{
+  text-align: center;
+}
+
 .subtitle {
   color: #2A2A2A;
 }
@@ -112,6 +116,11 @@ input[type=submit] {
 
 .navigation a:hover {
   color: tomato;
+}
+
+.model-output{
+  font-size: 60px;
+  margin:0px;
 }
 
 @media screen and (max-width: 768px) {
