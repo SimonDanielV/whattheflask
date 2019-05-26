@@ -75,10 +75,14 @@ img {
   color: tomato;
 }
 
-@media only screen and (max-width: 813px) {
+@media screen and (max-width: 768px) {
+
+  body {
+    background: #333333
+  }
 
   .navigation ul {
     justify-content: center;
   }
-  
+
 }
