@@ -33,9 +33,15 @@ img {
   padding-bottom: 20px;
 }
 
+.main-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
 .content {
   max-width: 750px;
-  margin: auto
+  margin: auto;
 }
 
 .subtitle {
@@ -77,12 +83,13 @@ img {
 
 @media screen and (max-width: 768px) {
 
-  body {
-    background: #333333
-  }
-
   .navigation ul {
     justify-content: center;
+  }
+
+  .content {
+    margin-left:4%;
+    margin-right:4%;
   }
 
 }
