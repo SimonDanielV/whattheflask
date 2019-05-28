@@ -1,7 +1,8 @@
 import random
 
-# generate random int between given numbers
+
 class Randomizer:
+    """Generates random int between given numbers."""
     def __init__(self, start, end):
         self.start = start
         self.end = end
@@ -9,8 +10,8 @@ class Randomizer:
         return random.randint(self.start, self.end)
 
 
-# generate prediction based on given list of numbers
 class Predictor:
+    """Generates prediction based on given list of numbers."""
     def __init__(self, given_numbers):
         self.train = given_numbers
     def make_prediction(self):
