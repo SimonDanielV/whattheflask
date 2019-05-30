@@ -87,7 +87,7 @@ input[type=submit] {
   color: #2A2A2A;
 }
 
-.main-navigation {
+.main-header {
   background-color: #5B524A;
   opacity: 0.97;
   padding-right: 5%;
@@ -107,23 +107,25 @@ input[type=submit] {
   padding: 0;
 }
 
-.navigation ul li {
+.menu-items li {
   display: list-item;
   list-style: none;
-}
-
-.navigation a {
-  color: #F3F3F3;
-  text-decoration: none;
   padding: 0px 20px;
-}
-
-.navigation a:hover {
-  color: tomato;
 }
 
 .menu-items {
   width:95%;
+}
+
+.menu-items a {
+  color: #F3F3F3;
+  text-decoration: none;
+  padding-bottom: 14px;
+}
+
+.menu-items a:hover{
+  color: #c7c7c7;
+  border-bottom: 3px solid tomato;
 }
 
 .model-output{
