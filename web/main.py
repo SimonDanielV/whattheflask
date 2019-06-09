@@ -4,6 +4,7 @@ from flask import Flask, render_template, request
 from wtflask.generate import Randomizer, Predictor
 from wtflask.validate import random_check, predict_check, string_to_digit
 
+
 app = Flask(__name__)
 
 
