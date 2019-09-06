@@ -3,7 +3,6 @@ from setuptools import setup, find_packages
 
 
 base_packages = ["numpy>=1.15.4", "pandas>=0.23.4",
-                 "jupyter>=1.0.0", "jupyterlab>=0.35.4",
                  "Flask==1.0.3"]
 
 dev_packages = ["pip", "pytest-cov", "pytest", "flake8"]
